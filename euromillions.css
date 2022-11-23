@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #012060;
+    margin: 0;
+    padding: 0;
+    background: url(/Tor-Kam/Javascript/Euromillions/MicrosoftTeams-image.png);
+}
+.containerNombres {
+    background-color: transparent;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    
+}
+.rond {
+    background-color: white;
+    font-size: 20px;
+    margin: 5px;
+    border: solid 5px gold;
+    padding: 30px;
+    border-radius: 50%;
+    padding: 5%;
+   
+}
+.etoile {
+    background-image:url(/Tor-Kam/Javascript/Euromillions/euml-star.svg);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
